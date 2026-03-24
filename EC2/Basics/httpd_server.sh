@@ -1,4 +1,4 @@
-!/bin/bash 
+#!/bin/bash 
 
 yum update -y 
 
@@ -8,4 +8,4 @@ systemctl start httpd
 
 systemctl enable httpd
 
-echo "<html><body><h1>Welcome to EC2 Web Server</h1></body></html>" > /var/www/html/index.html
+echo "<html><body><h1>Welcome to EC2 Web Server - $(hostname)</h1></body></html>" > /var/www/html/index.html
