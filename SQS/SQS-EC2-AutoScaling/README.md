@@ -1,4 +1,4 @@
-```text
+```
 /home/ec2-user/sqs-poller/
 ├── sqs-poller.sh          # Main poller script
 ├── process-message.sh     # Message processing logic
@@ -7,6 +7,9 @@
     ├── poller.log
     └── error.log
 ```
+
+
+
 
 
 
