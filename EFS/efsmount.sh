@@ -9,7 +9,7 @@ yum install -y amazon-efs-utils
 mkdir -p aws_efs
 
 # Mount the EFS file system
-mount -t efs -o tls <EFS_DNS>:/ aws_efs
+mount -t efs -o tls <EFS_DNS>:/ aws_efs # dont copy the complete DNS "
 
 
 sudo mount -t efs -o tls <DNS Name>:/ efs
